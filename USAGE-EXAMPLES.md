@@ -148,7 +148,7 @@ rewrite_text('I need to acquire some assistance with this enormous task.')
 # Usage - With AI
 rewrite_text(
     'I need to acquire some assistance with this enormous task.',
-    api_key='YOUR_GEMINI_API_KEY',
+    api_key='YOUR__API_KEY',
     use_ai=True
 )
 ```
@@ -366,22 +366,16 @@ curl https://YOUR-API-URL.vercel.app/api/health
 
 2. **AI + Dictionary** (Best Quality)
    - Set both `useDictionary: true` and `useAI: true`
-   - Provide Gemini API key
+   - Provide API key
    - Slower but much better results
 
 3. **AI Only** (Advanced)
    - Set `useDictionary: false` and `useAI: true`
-   - Provide Gemini API key
+   - Provide API key
    - Uses only AI rewriting
 
 ---
 
-## 🔑 Get Gemini API Key
-
-1. Go to: https://makersuite.google.com/app/apikey
-2. Click "Create API Key"
-3. Copy your key
-4. Use it in the `apiKey` field
 
 ---
 
@@ -392,7 +386,7 @@ curl https://YOUR-API-URL.vercel.app/api/health
 - ✅ 100 hours serverless function execution/month
 - ✅ Unlimited requests (fair use)
 
-**Gemini API Free Tier:**
+** API Free Tier:**
 - ✅ 60 requests per minute
 - ✅ 1,500 requests per day
 
