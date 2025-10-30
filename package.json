@@ -1,0 +1,21 @@
+{
+  "name": "simple-rewriter-api",
+  "version": "1.0.0",
+  "description": "Simple Re-Writer API - Text rewriting service",
+  "main": "api/rewrite.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "api",
+    "text-rewriting",
+    "nlp",
+    "vercel"
+  ],
+  "author": "MD RONI MIA",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
