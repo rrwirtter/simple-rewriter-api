@@ -1,8 +1,4 @@
 {
   "version": 2,
-  "name": "simple-rewriter-api",
-  "rewrites": [
-    { "source": "/api/rewrite", "destination": "/rewrite" },
-    { "source": "/api/health", "destination": "/health" }
-  ]
+  "name": "simple-rewriter-api"
 }
